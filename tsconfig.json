@@ -4,11 +4,13 @@
     "paths": {
       "react-native-eyeroll-ui": ["./src/index"]
     },
+    "noEmit": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
+    "allowImportingTsExtensions": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "jsx": "react",
+    "jsx": "react-native",
     "lib": ["esnext"],
     "module": "esnext",
     "moduleResolution": "node",

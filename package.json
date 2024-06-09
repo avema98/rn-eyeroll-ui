@@ -2,7 +2,7 @@
   "name": "react-native-eyeroll-ui",
   "version": "0.1.0",
   "description": "UI components that are ubiquitous but no other library has made them for us correctly. Like, why do they have to make it so difficult to use dialogue boxes? Why do text inputs generally look like poop emoji? Why cant i customize the styles normally? why are the docs terrible? eye roll emoji. Fine ill just do it myself. SMH",
-  "main": "lib/commonjs/index",
+  "main": "index.ts",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
   "react-native": "src/index",
@@ -58,7 +58,6 @@
     "@react-native/eslint-config": "^0.73.1",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^29.5.5",
-    "@types/react": "^18.2.44",
     "commitlint": "^17.0.2",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
@@ -70,7 +69,9 @@
     "react-native": "0.74.2",
     "react-native-builder-bob": "^0.20.0",
     "release-it": "^15.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.1.6",
+    "@types/react": "^16.9.56",
+    "@types/react-native": "^0.63.34"
   },
   "resolutions": {
     "@types/react": "^18.2.44"
